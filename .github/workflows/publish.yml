@@ -1,4 +1,4 @@
-name: Publish Scott-ui To Npm
+name: Publish Npm
 
 on:
   push:

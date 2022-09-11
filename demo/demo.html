@@ -13,7 +13,7 @@
     <script type="module">
       import { createApp } from "vue/dist/vue.esm-bundler.js";
       import style from "sue-ui/entry.css";
-      import ScottUI, { SButton } from "sue-ui/sue-ui.esm.js";
+      import SueUI, { SButton } from "sue-ui/sue-ui.esm.js";
 
       createApp({
         template: `
@@ -53,7 +53,7 @@
  </div>
     `,
       })
-        .use(ScottUI)
+        .use(SueUI)
         .mount("#app");
     </script>
   </body>
