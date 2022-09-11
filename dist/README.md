@@ -1,9 +1,9 @@
 # 🎉 Sue-UI
 
 <p align="center">
-    <img src="https://img.shields.io/npm/v/scott-ui?color=c95f8b&amp;label=" alt="NPM version">
-    <img src="https://github.com/iscottt/scott-ui/actions/workflows/main.yml/badge.svg?branch=main" alt="CI" style="max-width: 100%;"/>
-    <img src="https://img.shields.io/github/license/iscottt/scott-ui?color=red"/>
+    <img src="https://img.shields.io/npm/v/sue-ui?color=c95f8b&amp;label=" alt="NPM version">
+    <img src="https://github.com/iscottt/sue-ui/actions/workflows/main.yml/badge.svg?branch=main" alt="CI" style="max-width: 100%;"/>
+    <img src="https://img.shields.io/github/license/iscottt/sue-ui?color=red"/>
 </p>
 
 ## Features
