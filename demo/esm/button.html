@@ -11,18 +11,15 @@
     <div id="app"></div>
     <script type="module">
       import { createApp } from "vue/dist/vue.esm-bundler.js";
-      import { SFCButton, JSXButton, Button } from "../../dist/sue-ui.esm.js";
+      import { SButton } from "../../dist/sue-ui.mjs";
+      import "../../dist/entry.css";
 
       createApp({
         template: `
-<SButton/>
-<JSXButton/>
-<SFCButton/>
+<SButton>6666</SButton>
 `,
       })
-        .component(SFCButton.name, SFCButton)
-        .component(JSXButton.name, JSXButton)
-        .component(Button.name, Button)
+        .component(SButton.name, SButton)
         .mount("#app");
     </script>
   </body>

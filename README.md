@@ -19,7 +19,7 @@
 ## Install
 
 ```bash
-npm i sue-ui
+pnpm i sue-ui
 ```
 
 ## Quick Start

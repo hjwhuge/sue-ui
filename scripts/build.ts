@@ -45,12 +45,13 @@ const buildAll = async () => {
       Object.assign(config.build, custom);
       await build(defineConfig(config as UserConfig) as InlineConfig);
 
+      const lowerCaseName = name.toLowerCase();
       fs.outputFile(
         path.resolve(outDir, `package.json`),
         `{
-          "name": "sue-ui-${name}",
-          "main": "index.umd.js",
-          "module": "index.umd.js"
+          "name": "sue-ui-${lowerCaseName}",
+          "main": "index.mjs",
+          "module": "index.mjs"
         }`,
         `utf-8`
       );
