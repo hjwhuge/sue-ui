@@ -2,7 +2,8 @@ name: Publish Npm
 
 on:
   push:
-    branches: [publish-sue-ui]
+    tags:
+      - "v*"
 
 jobs:
   publish:
