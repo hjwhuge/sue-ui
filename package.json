@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sue-ui.vercel.app/",
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run",
