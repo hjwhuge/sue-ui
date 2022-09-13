@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/npm/v/sue-ui?color=c95f8b&amp;label=" alt="NPM version">
-    <img src="https://img.shields.io/github/license/iscottt/sue-ui?color=red"/>
+    <img src="https://img.shields.io/github/license/hjwhuge/sue-ui?color=red"/>
 </p>
 
 ## Features
